@@ -1,0 +1,14 @@
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\bin\Debug\net8.0\project2.exe
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\bin\Debug\net8.0\project2.deps.json
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\bin\Debug\net8.0\project2.runtimeconfig.json
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\bin\Debug\net8.0\project2.dll
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\bin\Debug\net8.0\project2.pdb
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\project2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\project2.AssemblyInfoInputs.cache
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\project2.AssemblyInfo.cs
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\project2.csproj.CoreCompileInputs.cache
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\project2.dll
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\refint\project2.dll
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\project2.pdb
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\project2.genruntimeconfig.cache
+C:\Users\camer\OneDrive\Documents\Wctc\2025\net\project2\obj\Debug\net8.0\ref\project2.dll
