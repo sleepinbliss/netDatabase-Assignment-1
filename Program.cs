@@ -84,13 +84,26 @@ while (true)
             using (sr)
             {
                 string? line;
-                while ((line = sr.ReadLine()) != null) 
+                while ((line = sr.ReadLine()) != null)
                 {
-                    Console.WriteLine(line);
+                    var parts = line.Split(',');
+                    if (parts.Length == 3)
+                    {
+                        Character character = new Character
+                        {
+                            Id = UInt64.TryParse(parts[0], out var id) ? id : 0,
+                            Name = parts[1],
+                            Relationship = parts[2]
+                        };
+                        Console.WriteLine(character.Display());
+                    }
                 }
             }
         }
-        else { Console.WriteLine("No data file found."); }
+        else
+        {
+            Console.WriteLine("No data file found.");
+        }
 
         Console.Write("\nBack to Menu: ");
         Console.ReadLine();

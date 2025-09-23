@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camer\\OneDrive\\Documents\\Wctc\\2025\\net\\project2\\project2.csproj",
+      "projectUniqueName": "C:\\Users\\camer\\OneDrive\\Documents\\Wctc\\2025\\net\\mario2.0\\netDatabase-Assignment-1\\project2.csproj",
       "projectName": "project2",
-      "projectPath": "C:\\Users\\camer\\OneDrive\\Documents\\Wctc\\2025\\net\\project2\\project2.csproj",
+      "projectPath": "C:\\Users\\camer\\OneDrive\\Documents\\Wctc\\2025\\net\\mario2.0\\netDatabase-Assignment-1\\project2.csproj",
       "packagesPath": "C:\\Users\\camer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camer\\OneDrive\\Documents\\Wctc\\2025\\net\\project2\\obj\\",
+      "outputPath": "C:\\Users\\camer\\OneDrive\\Documents\\Wctc\\2025\\net\\mario2.0\\netDatabase-Assignment-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
