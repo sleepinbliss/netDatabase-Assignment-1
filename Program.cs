@@ -42,22 +42,28 @@ while (true)
     // Store Inputs to file.
     static void appendCharacter(string file, StreamWriter sw)
     {
+        Character character = new Character();
+
         Console.Write("Character Name: ");
-        string name = Console.ReadLine();
+        character.Name = Console.ReadLine() ?? "";
+
         Console.Write("Relationship to Mario: ");
-        string relationship = Console.ReadLine();
+        character.Relationship = Console.ReadLine() ?? "";
+
         Console.Write("Id Number: ");
-        string id = Console.ReadLine();
-        sw.WriteLine("Id: {0}\nName: {1}\nRelationship to Mario: {2}", id, name, relationship);
+        UInt64.TryParse(Console.ReadLine(), out UInt64 id);
+        character.Id = id;
+
+        sw.WriteLine($"{character.Id},{character.Name},{character.Relationship}");
+
         string? choice;
         do
         {
             Console.Write("Add another? (Y/N): ");
-            choice = Console.ReadLine().ToUpper();
+            choice = Console.ReadLine()?.ToUpper();
             if (choice == "Y")
             {
                 appendCharacter(file, sw);
-                // Recursion recursion recursion recursion
             }
             else if (choice == "N")
             {
@@ -67,7 +73,6 @@ while (true)
             else
             {
                 Console.WriteLine("Sorry, wrong input.");
-
             }
         } while (choice != "N");
     }
@@ -79,14 +84,15 @@ while (true)
             using (sr)
             {
                 string? line;
-                while ((line = sr.ReadLine()) != null) // While each line is not empty...
+                while ((line = sr.ReadLine()) != null) 
                 {
                     Console.WriteLine(line);
                 }
             }
-        } else {Console.WriteLine("No data file found.");}
-        
-    Console.Write("\nBack to Menu: ");
-    Console.ReadLine();
+        }
+        else { Console.WriteLine("No data file found."); }
+
+        Console.Write("\nBack to Menu: ");
+        Console.ReadLine();
     }
 }
